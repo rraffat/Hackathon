@@ -7,14 +7,14 @@ Monica (Mowasef)
 
 Abdul Aziz (ael-masr)
 
--
+Hashim (hmohamed)
 
--
+Mustafa (musali)
 
 
 Idea :
 
-Web App for development student life 
+Mobil App for development the intra app
 
-(merge intra and slack ideas)
+add some features and remove some staff not need it
 
