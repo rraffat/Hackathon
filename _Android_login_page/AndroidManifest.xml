@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="exportkit.figma" >
+
+	
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:label="@string/app_name" >
+		<activity
+		android:name=".login_page_activity"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"
+		android:exported="true"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+			<activity android:name="exportkit.figma.home_page_activity"></activity>
+			<activity android:name="exportkit.figma.manage_slots_activity"></activity>
+			<activity android:name="exportkit.figma.eval_page_activity"></activity>
+			<activity android:name="exportkit.figma.settings_activity"></activity>
+			<activity android:name="exportkit.figma.information_activity"></activity>
+			<activity android:name="exportkit.figma.notification_activity"></activity>
+			<activity android:name="exportkit.figma.security_activity"></activity>
+			<activity android:name="exportkit.figma.agu_activity"></activity>
+			<activity android:name="exportkit.figma.event_activity"></activity>
+			<activity android:name="exportkit.figma.creat_event_activity"></activity>
+	</application>
+
+</manifest>
+	
+	
